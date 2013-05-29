@@ -481,6 +481,15 @@ h2, h3, h4, h5, h6 {
   
 }
 
+h1#site-name{
+margin-top: .25em;
+}
+
+h1#site-name a{
+text-decoration: none;
+color: #000;
+}
+
 
 /* RESPONSIVE IMAGES */
 img {
@@ -561,10 +570,29 @@ display:none;
 display:block;
 }
 
+#name{
+display: block;
+text-align: center;
+}
+
 #logo{
 display: block;
 text-align: center;
+width: 100%;
+}
 
+#logo img{
+margin: 0;
+float: none;
+}
+
+#slogan{
+display: block;
+text-align: center;
+}
+
+#slogan h2{
+color: #fff;
 }
 
 #navigation{
@@ -876,6 +904,19 @@ height:12.00em;
 #navigation{
 overflow:auto;
 }
+
+
+#name{
+float: left;
+width: 25%;
+}
+
+#slogan{
+float: right;
+clear: none;
+width: 75%;
+}
+
 
 #content{
 overflow:auto;
