@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the General Layout feature.
+ */
+
+include_once 'general_layout.features.inc';
